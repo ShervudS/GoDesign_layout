@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Go Design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <img src="img/logo.png" alt="" class="header__logo-img">
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <main class="main">
+            <section class="home">
+                <div class="home__container container">
+                    <div class="home__descr">
+                        <h1 class="home__title">
+                            <span class="home__title--yellow">100%</span>
+                            <p>страховка</p>
+                            <p class="home__title home__title--low">первой ставки</p>
+                        </h1>
+                        <p class="home__text">Cтань клиентом bwin и получи фрибет
+                            <span class="home__text home__text--low">на сумму первой ставки, если она не сыграет</span>
+                        </p>
+                        <button id="play" class="home__btn">Играть без риска</button>
+                    </div>
+                    <div class="home__img">
+                        <img src="./img/home_img.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer__container container">
+                    <ul class="footer__download">
+                        <li class="download__item">
+                            <a class="download__link" id="appStore" href="">
+                                <img src="./img/app_store.png" alt="">
+                            </a>
+                        </li>
+                        <li class="download__item">
+                            <a class="download__link" id="GooglePlay" href="">
+                                <img src="./img/google_play.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <button id="rules" class="footer__btn">Правила и условия</button>
+
+                    <ul class="footer__logos">
+                        <li class="logos__item"></li>
+                        <li class="logos__item"></li>
+                        <li class="logos__item"></li>
+                        <li class="logos__item"></li>
+                    </ul>
+                </div>
+            </footer>
+            </footer>
+        </main>
+    </div>
+
+    <div class="modal__window">
+        <div class="modal__content">
+            <button class="modal__close">
+                <svg class="modal__close--img" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L21 21" stroke-width="3" stroke-linecap="round"/>
+                    <path d="M21 2L2 21" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <div class="modal__container">
+                <h3 class="modal__title">Правила и условия</h3>
+                <p class="modal__text">Букмекерская контора Bwin предлагает всем своим новым клиентам беспроигрышную сделку. Если ваша первая ставка на сайте букмекера окажется неудачной, компания вернет проигранную сумму в полном объеме в качестве фрибета. Этот бонус можно использовать для заключения нового пари, чистый выигрыш с которого достанется вам. Правда, у кэшбека Bwin есть ограничение – максимальная сумма, которую готов компенсировать букмекер, равна 2000 рублей.</p>
+                <h3 class="modal__title">Как это работает</h3>
+                <ul class="modal__list">
+                    <li class="modal__item">Вы регистрируетесь на сайте БК Bwin и проходите процедуру идентификации личности</li>
+                    <li class="modal__item">Делаете первую ставку на реальные деньги</li>
+                    <li class="modal__item">Если проигрываете, получаете свои деньги назад в течение 30 минут с момента расчета</li>
+                    <li class="modal__item">Условия акции распространяются на все типы пари, кроме «суперкоэффициентов» и «комбо+»</li>
+                    <li class="modal__item">Полученный фрибет нужно использовать в течение 7 дней с момента его предоставления</li>
+                </ul>
+                <h3 class="modal__title">Важные правила</h3>
+                <ul class="modal__list">
+                    <li class="modal__item">В акции могут участвовать только новые пользователи или пользователи, которые до этого не делали ни одной ставки</li>
+                    <li class="modal__item">Фрибет можно использовать только в мобильных приложениях Bwin для iOS и Android</li>
+                    <li class="modal__item">Один игрок может получить только один фрибет</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" ></script>
+</body>
+</html>
