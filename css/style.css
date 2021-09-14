@@ -90,13 +90,13 @@ button{
 
 .home{
     height: calc(100vh - 80px);
+    min-height: 100%;
     padding: 150px 0;
     background: url("../img/bg_home.png") center / cover no-repeat;
 }
 .home__container{
     display: flex;
     align-items: center;
-    min-height: 300px;
 }
 .home__descr{
     max-width: 506px;
@@ -328,6 +328,9 @@ button{
     .header{
         padding: 31px 0;
     }
+    .home{
+        height: 100vh;
+    }
     .home__img{
         max-width: 400px;
     }
@@ -356,10 +359,24 @@ button{
     }
 }
 @media (max-width: 680px) {
+    .header{
+        padding: 21px 0;
+    }
+    .header__logo{
+        max-width: 66px;
+        max-height: 22px;
+    }
+    .home{
+        padding: 40px 0;
+    }
+    .home__title--yellow{
+        font-size: 53px;
+    }
     .footer__btn{
         order: -2;
     }
     .home__btn {
+        margin-top: 5px;
         font-size: 24px;
         padding: .5em 1rem;
     }
@@ -370,16 +387,6 @@ button{
 
 
 @media (max-width: 320px) {
-    .header{
-        padding: 21px 0;
-    }
-    .header__logo{
-        max-width: 66px;
-        max-height: 22px;
-    }
-    .home{
-        padding: 55px 0;
-    }
     .home__text{
         font-size: 12px;
     }
@@ -387,7 +394,6 @@ button{
         font-size: 10px;
     }
     .home__btn{
-        margin-top: 5px;
         font-size: 15px;
         padding: 5px 21px;
     }
