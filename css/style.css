@@ -281,7 +281,7 @@ button{
 .modal__container::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: 5px;
- }
+}
 
 .modal__title{
     font-family: "DrukWide";
